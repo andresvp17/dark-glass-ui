@@ -14,6 +14,9 @@
       "require": "./dist/dark-glass-ui.js"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
