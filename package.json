@@ -1,16 +1,19 @@
 {
   "name": "dark-glass-ui",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.3",
   "type": "module",
+  "types": "./dist/dark-glass-ui.d.ts",
   "files": [
     "dist"
   ],
-  "main": "dist/dark-glass-ui-umd.cjs",
+  "license": "MIT",
+  "author": "andrevp17",
+  "main": "dist/dark-glass-ui.umd.cjs",
   "module": "dist/dark-glass-ui.js",
   "exports": {
     ".": {
-      "import": "./dist/dark-glass-ui-umd.cjs",
+      "import": "./dist/dark-glass-ui.umd.cjs",
       "require": "./dist/dark-glass-ui.js"
     }
   },
