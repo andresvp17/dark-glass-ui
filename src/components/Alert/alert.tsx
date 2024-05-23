@@ -3,7 +3,7 @@ import { HTMLAttributes, forwardRef } from 'react'
 import { cn } from '../../utils'
 
 const alertStyles = cva(
-  'w-full relative rounded-lg border-2 border-force-violet-800 px-4 py-3 [&>svg+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:text-foreground [&>svg~*]:pl-7',
+  'w-full relative rounded-lg border-2 border-violet-800 px-4 py-3 [&>svg+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:text-foreground [&>svg~*]:pl-7',
   {
     variants: {
       variant: {

@@ -5,8 +5,8 @@ import { cn } from '../../utils'
 const inputStyles = cva([
   'w-full',
   'border-2',
-  'border-force-violet-300',
-  'focus:border-force-violet-800',
+  'border-violet-300',
+  'focus:border-violet-800',
   'transition-colors',
   'placeholder:text-slate-500',
   'py-1.5',

@@ -1,3 +1,2 @@
-import { ForwardRefExoticComponent, RefAttributes } from 'react';
 import * as SwitchPrimitives from '@radix-ui/react-switch';
-export declare const Switch: ForwardRefExoticComponent<Omit<SwitchPrimitives.SwitchProps & RefAttributes<HTMLButtonElement>, "ref"> & RefAttributes<HTMLButtonElement>>;
+export declare const Switch: import('react').ForwardRefExoticComponent<Omit<SwitchPrimitives.SwitchProps & import('react').RefAttributes<HTMLButtonElement>, "ref"> & import('react').RefAttributes<HTMLButtonElement>>;

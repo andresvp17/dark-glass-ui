@@ -8,7 +8,7 @@ HTMLAttributes<HTMLDivElement>
   return (
     <article
       ref={ref}
-      className={cn('rounded-lg border-2 border-force-violet-300 text-slate-950 shadow-lg', className)}
+      className={cn('rounded-lg border-2 border-violet-300 text-slate-950 shadow-lg', className)}
       {...props}
     />
   )

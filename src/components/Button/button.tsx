@@ -10,10 +10,10 @@ const buttonStyles = cva([
 ], {
   variants: {
     variant: {
-      solid: 'bg-force-violet-500 text-white border-transparent md:hover:bg-force-violet-700',
-      ghost: 'md:hover:bg-force-violet-100 text-force-violet-950',
-      outline: 'border-2 border-force-violet-500 text-force-violet-700 md:hover:bg-force-violet-50',
-      disabled: 'bg-force-violet-950 text-force-violet-200 cursor-not-allowed'
+      solid: 'bg-violet-500 text-white border-transparent md:hover:bg-violet-700',
+      ghost: 'md:hover:bg-violet-100 text-violet-950',
+      outline: 'border-2 border-violet-500 text-violet-700 md:hover:bg-violet-50',
+      disabled: 'bg-violet-950 text-violet-200 cursor-not-allowed'
     },
     size: {
       sm: 'text-sm py-1 px-4',

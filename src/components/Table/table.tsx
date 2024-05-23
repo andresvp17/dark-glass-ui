@@ -21,7 +21,7 @@ React.HTMLAttributes<HTMLTableSectionElement>
   return (
     <thead
       ref={ref}
-      className={cn('[&_tr]:border-b [&_tr]:border-force-violet-900', className)}
+      className={cn('[&_tr]:border-b [&_tr]:border-violet-900', className)}
       {...props}
     />
   )
@@ -47,7 +47,7 @@ React.HTMLAttributes<HTMLTableSectionElement>
   <tfoot
     ref={ref}
     className={cn(
-      'border-t bg-force-violet-200 font-medium [&>tr]:last:border-b-0',
+      'border-t bg-violet-200 font-medium [&>tr]:last:border-b-0',
       className
     )}
     {...props}
@@ -61,7 +61,7 @@ React.HTMLAttributes<HTMLTableRowElement>
   <tr
     ref={ref}
     className={cn(
-      'border-b border-force-violet-900 transition-colors hover:bg-force-violet-50 data-[state=selected]:bg-muted',
+      'border-b border-violet-900 transition-colors hover:bg-violet-50 data-[state=selected]:bg-muted',
       className
     )}
     {...props}
@@ -75,7 +75,7 @@ React.ThHTMLAttributes<HTMLTableCellElement>
   <th
     ref={ref}
     className={cn(
-      'h-10 px-2 text-left align-middle font-medium text-force-violet-900 [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]',
+      'h-10 px-2 text-left align-middle font-medium text-violet-900 [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]',
       className
     )}
     {...props}
@@ -102,7 +102,7 @@ React.HTMLAttributes<HTMLTableCaptionElement>
 >(({ className, ...props }, ref) => (
   <caption
     ref={ref}
-    className={cn('mt-4 text-sm font-semibold text-force-violet-950', className)}
+    className={cn('mt-4 text-sm font-semibold text-violet-950', className)}
     {...props}
   />
 ))

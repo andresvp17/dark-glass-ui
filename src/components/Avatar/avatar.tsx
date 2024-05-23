@@ -31,7 +31,7 @@ export const Avatar = ({ className, size, ...props }: AvatarProps): React.ReactE
 export const AvatarFallback = ({ className, ...props }: FallbackProps): React.ReactElement => {
   return (
     <span
-      className={cn('top-0 left-0 font-semibold uppercase rounded-full absolute w-full h-full bg-force-violet-600 text-white flex items-center justify-center', className)}
+      className={cn('top-0 left-0 font-semibold uppercase rounded-full absolute w-full h-full bg-violet-600 text-white flex items-center justify-center', className)}
       {...props}
     />
   )

@@ -1,0 +1,15 @@
+import{j as r,c as o}from"./index-DwUfFILZ.js";import{B as x}from"./button-D8mkaTNo.js";import{r as s}from"./index-BwDkhjyp.js";import"./index-Bb4qSo10.js";import"./_commonjsHelpers-BosuxZz1.js";const c=s.forwardRef(({className:e,...a},t)=>r.jsx("article",{ref:t,className:o("rounded-lg border-2 border-violet-300 text-slate-950 shadow-lg",e),...a})),n=s.forwardRef(({className:e,...a},t)=>r.jsx("div",{ref:t,className:o("flex flex-col space-y-1.5 p-6",e),...a})),i=s.forwardRef(({className:e,...a},t)=>r.jsx("h3",{ref:t,className:o("text-lg font-semibold tracking-tight",e),...a})),p=s.forwardRef(({className:e,...a},t)=>r.jsx("p",{ref:t,className:o("text-slate-950 leading-tight",e),...a})),l=s.forwardRef(({className:e,...a},t)=>r.jsx("div",{ref:t,className:o("p-6 pt-0",e),...a})),m=s.forwardRef(({className:e,...a},t)=>r.jsx("div",{ref:t,className:o("flex items-center p-6 pt-0",e),...a}));try{c.displayName="Card",c.__docgenInfo={description:"",displayName:"Card",props:{}}}catch{}try{n.displayName="CardHeader",n.__docgenInfo={description:"",displayName:"CardHeader",props:{}}}catch{}try{i.displayName="CardTitle",i.__docgenInfo={description:"",displayName:"CardTitle",props:{}}}catch{}try{p.displayName="CardDescription",p.__docgenInfo={description:"",displayName:"CardDescription",props:{}}}catch{}try{l.displayName="CardContent",l.__docgenInfo={description:"",displayName:"CardContent",props:{}}}catch{}try{m.displayName="CardFooter",m.__docgenInfo={description:"",displayName:"CardFooter",props:{}}}catch{}const j={title:"Components/Card",parameters:{layout:"centered"},tags:["autodocs"]},d={render:()=>r.jsxs(c,{className:"max-w-[400px]",children:[r.jsxs(n,{children:[r.jsx(i,{children:"Appreciation Card!"}),r.jsx(p,{children:"Get to see a great good guy here that brings joy and happiness."})]}),r.jsxs(l,{className:"flex flex-col items-center",children:[r.jsx("h2",{children:"Look how he smiles ❤️"}),r.jsx("img",{className:"w-[150px] aspect-square object-cover rounded-md",src:"https://i.pinimg.com/736x/53/f2/c9/53f2c99bb164cf29ef031860fc038805.jpg",alt:"Smiley Naruto"})]}),r.jsx(m,{children:r.jsx(x,{variant:"solid",size:"md",children:"Click me!"})})]})};var _,C,f;d.parameters={...d.parameters,docs:{...(_=d.parameters)==null?void 0:_.docs,source:{originalSource:`{
+  render: () => <Card className='max-w-[400px]'>\r
+      <CardHeader>\r
+        <CardTitle>Appreciation Card!</CardTitle>\r
+        <CardDescription>Get to see a great good guy here that brings joy and happiness.</CardDescription>\r
+      </CardHeader>\r
+      <CardContent className='flex flex-col items-center'>\r
+        <h2>Look how he smiles ❤️</h2>\r
+        <img className='w-[150px] aspect-square object-cover rounded-md' src='https://i.pinimg.com/736x/53/f2/c9/53f2c99bb164cf29ef031860fc038805.jpg' alt='Smiley Naruto' />\r
+      </CardContent>\r
+      <CardFooter>\r
+        <Button variant='solid' size='md'>Click me!</Button>\r
+      </CardFooter>\r
+    </Card>
+}`,...(f=(C=d.parameters)==null?void 0:C.docs)==null?void 0:f.source}}};const w=["DefaultCard"];export{d as DefaultCard,w as __namedExportsOrder,j as default};

@@ -7,9 +7,9 @@ const badgeStyles = cva(
   {
     variants: {
       variant: {
-        default: 'bg-force-violet-400 text-white md:hover:bg-force-violet-800',
-        secondary: 'bg-force-violet-900 text-white md:hover:bg-force-violet-950',
-        outline: 'border-2 border-force-violet-600 text-force-violet-600'
+        default: 'bg-violet-400 text-white md:hover:bg-violet-800',
+        secondary: 'bg-violet-900 text-white md:hover:bg-violet-950',
+        outline: 'border-2 border-violet-600 text-violet-600'
       }
     }
   }

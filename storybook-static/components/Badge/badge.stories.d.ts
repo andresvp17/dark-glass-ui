@@ -1,5 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { Badge } from '../Badge/badge';
+
 declare const meta: Meta<typeof Badge>;
 export default meta;
 type Story = StoryObj<typeof meta>;
